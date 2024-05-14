@@ -2,7 +2,9 @@
 	"root": true,
 	"parser": "@typescript-eslint/parser",
 	"parserOptions": {
-		"EXPERIMENTAL_useProjectService": true
+		"EXPERIMENTAL_useProjectService": {
+			"maximumDefaultProjectFileMatchCount_THIS_WILL_SLOW_DOWN_LINTING": 0
+		}
 	},
 	"plugins": ["@typescript-eslint"]
 }
